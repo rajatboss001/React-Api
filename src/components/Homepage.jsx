@@ -142,7 +142,7 @@ bg-linear-to-br from-violet-100 via-white to-purple-100 p-5">
 
                 {products.map((item) => (
 
-                    <div className="bg-white rounded-2xl p-4 flex flex-col h-full">
+                    <div className="bg-white hover:shadow-2xl transition-all duration-300 cursor-pointer rounded-2xl p-4 flex flex-col h-full">
 
                         <img
                             src={item.thumbnail}
